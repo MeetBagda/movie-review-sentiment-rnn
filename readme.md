@@ -135,10 +135,6 @@ The model provides:
 4. Push to the branch (`git push origin feature/improvement`)
 5. Create a Pull Request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - IMDB for providing the movie reviews dataset

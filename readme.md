@@ -9,6 +9,7 @@ This project implements a sentiment analysis system that:
 - Uses RNN architecture for sequence modeling
 - Achieves binary classification (positive/negative sentiment)
 - Includes data preprocessing, model training, and evaluation
+- **NEW**: Interactive console interface for real-time sentiment prediction
 
 ## 🗂️ Dataset
 
@@ -96,6 +97,7 @@ jupyter notebook
    - Train the RNN model
    - Evaluate model performance
    - Visualize training progress
+   - **Use the interactive sentiment analyzer**
 
 ## 📊 Model Performance
 
@@ -119,6 +121,9 @@ Performance metrics tracked:
 - **GPU Support**: Automatically detects and uses CUDA if available
 - **Progress Tracking**: Real-time training updates
 - **Visualization**: Loss curves and training metrics
+- **🆕 Interactive Prediction**: Console-based interface for real-time sentiment analysis
+- **🆕 User Input Processing**: Handles unknown words and variable-length inputs
+- **🆕 Confidence Scoring**: Provides prediction confidence percentages
 
 ## 📈 Results
 
@@ -126,6 +131,34 @@ The model provides:
 - Training progress visualization
 - Final accuracy on test set
 - Loss curves over training epochs
+
+## 🎮 Interactive Sentiment Analysis
+
+**NEW FEATURE**: After training the model, you can use the interactive console interface to test the sentiment analysis with your own movie reviews!
+
+### How to Use:
+1. Run all notebook cells to train the model
+2. Execute the interactive sentiment analysis cell
+3. Enter movie reviews when prompted
+4. Get instant sentiment predictions with confidence scores
+5. Type 'quit' to exit the interactive mode
+
+### Example Usage:
+```
+🎬 Movie Review Sentiment Analysis 🎬
+Enter your movie review: This movie was absolutely amazing!
+📝 Review: "This movie was absolutely amazing!"
+🎯 Sentiment: Positive
+📊 Confidence: 87.45%
+😍 Very positive review!
+```
+
+### Features:
+- **Real-time predictions** for any movie review
+- **Confidence percentages** to show model certainty
+- **Handles unknown words** gracefully
+- **User-friendly interface** with emojis and clear formatting
+- **Demo examples** to test the system
 
 ## 🤝 Contributing
 
